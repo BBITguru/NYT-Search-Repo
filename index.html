@@ -28,7 +28,7 @@
 </head>
 
 <body>
-
+    <!--Nav Bar-->
     <nav class="navbar navbar-inverse">
         <div class="container">
             <div class="navbar-header">
@@ -39,22 +39,20 @@
       </button>
                 <a class="navbar-brand" href="#"></a>
             </div>
-
-
         </div>
         </div>
     </nav>
 
+    <!--Jumbotron-->
     <div class="jumbotron">
         <div class="container text-center">
-
             <h1> <i class="far fa-newspaper"></i> New York Times Search</h1>
             <p></p>
         </div>
     </div>
 
+    <!--Search parameters-->
     <div class="container bg-3 text-center">
-
         <div class="row">
             <div class="panel panel-default">
                 <div class="panel-heading">
@@ -63,7 +61,6 @@
                 <div class="panel-body">
 
                     <form>
-
                         <div class="form-group">
                             <label for="exampleInputEmail1">Search Term</label>
                             <input type="email" class="form-control" id="searchTerm" aria-describedby="" placeholder="searchTerm">
@@ -88,48 +85,37 @@
                     <button type=“button” class=“btn btn-default”><i class="fab fa-searchengin" class="search"></i>Search Button</button>
                     <button type=“button” class=“btn btn-default”><i class="far fa-trash-alt"class="results"></i>Clear Results Button</button>
                 </div>
-                <!-- by clicking search button user initailizes the search 
-                    click on search button and uses NYtimes API to find results-->
-                <script>
-                    $('.search').click(function) {
-
-                    }
-                </script>
 
                 <br>
                 <br>
                 <div class="container bg-3 text-center">
-
                     <div class="row">
                         <div class="panel panel-default" id="topArt"></div>
                         <div class="panel-heading">
                             <h3 class="panel-title">topArt-NY Times Search Results</h3>
                         </div>
                         <div class="panel-body">
-
                         </div>
-
                         <div class="well well-lg" id="well">div-well Article Results</div>
-
-
                         </button>
-
-
-
-
-
-
                     </div>
-
                 </div>
             </div><br>
-
-
-
+            <!--Footer-->
             <footer class="container-fluid text-center">
                 <p>Footer - Class Group Project</p>
             </footer>
 
+
+            <!--Javascript-->
+            <script>
+                // user enter parameters
+                // by clicking search button user initailizes the search
+                // click on search button and uses NYtimes API to find results
+                $('.search').click(function) {}
+
+                $('.results').click(function) {}
+            </script>
 </body>
 
 </html>
