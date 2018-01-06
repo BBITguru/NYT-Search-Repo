@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>New York Times Search</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+    <style>
+        /* Remove the navbar's default margin-bottom and rounded borders */
+        
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+        }
+        /* Add a gray background color and some padding to the footer */
+        
+        footer {
+            background-color: black;
+            width: 100%;
+            font: white;
+            padding: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+                <a class="navbar-brand" href="#"></a>
+            </div>
+
+
+        </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron">
+        <div class="container text-center">
+
+            <h1> <i class="far fa-newspaper"></i> New York Times Search</h1>
+            <p></p>
+        </div>
+    </div>
+
+    <div class="container bg-3 text-center">
+
+        <div class="row">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Search Parameters</h3>
+                </div>
+                <div class="panel-body">
+
+                    <form>
+
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Search Term</label>
+                            <input type="email" class="form-control" id="searchTerm" aria-describedby="" placeholder="searchTerm">
+                            <small id="?" class="form-text text-muted"></small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Number of Records</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="numberRecords">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Start Year</label>
+                            <input type="email" class="form-control" id="searchTerm" aria-describedby="" placeholder="startYear">
+                            <small id="?" class="form-text text-muted"></small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">End Year</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="endYear">
+                        </div>
+                </div>
+
+                <div class=“btn-group” role=“group” aria-label=“...“>
+                    <button type=“button” class=“btn btn-default”><i class="fab fa-searchengin" class="search"></i>Search Button</button>
+                    <button type=“button” class=“btn btn-default”><i class="far fa-trash-alt"class="results"></i>Clear Results Button</button>
+                </div>
+                <!-- by clicking search button user initailizes the search 
+                    click on search button and uses NYtimes API to find results-->
+                <script>
+                    $('.search').click(function) {
+
+                    }
+                </script>
+
+                <br>
+                <br>
+                <div class="container bg-3 text-center">
+
+                    <div class="row">
+                        <div class="panel panel-default" id="topArt"></div>
+                        <div class="panel-heading">
+                            <h3 class="panel-title">topArt-NY Times Search Results</h3>
+                        </div>
+                        <div class="panel-body">
+
+                        </div>
+
+                        <div class="well well-lg" id="well">div-well Article Results</div>
+
+
+                        </button>
+
+
+
+
+
+
+                    </div>
+
+                </div>
+            </div><br>
+
+
+
+            <footer class="container-fluid text-center">
+                <p>Footer - Class Group Project</p>
+            </footer>
+
+</body>
+
+</html>
