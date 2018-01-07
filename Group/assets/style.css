@@ -1,0 +1,27 @@
+h3 {
+    text-align: left;
+}
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+/* Add a gray background color and some padding to the footer */
+
+footer {
+    background-color: black;
+    width: 100%;
+    padding: 25px;
+}
+footer p {
+    color: white;
+}
+form {
+    text-align: left;
+}
+.jumbotron {
+    margin: 0 auto;
+    max-width: 80%;
+}
+.row {
+    padding: 10px;
+}
